@@ -4,7 +4,7 @@ Any image that is older than a month should be deleted and if the latest image i
 
 Below is the code snippet
 
-
+```
 # Set your Azure Container Registry name
 ACR_NAME="tvsmazp360acrdev01"
 # Get the list of repositories in the ACR
@@ -44,7 +44,7 @@ for REPO_NAME in $REPO_LIST; do
     fi
 done
  
-#az acr manifest list-metadata -r tvsmazp360acrdev01 -n admin-service --orderby time_desc --top 1
+#az acr manifest list-metadata -r tvsmazp360acrdev01 -n admin-service --orderby time_desc --top 1```
 
 
 
