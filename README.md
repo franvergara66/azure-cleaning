@@ -44,7 +44,9 @@ for REPO_NAME in $REPO_LIST; do
     fi
 done
  
-#az acr manifest list-metadata -r tvsmazp360acrdev01 -n admin-service --orderby time_desc --top 1```
+#az acr manifest list-metadata -r tvsmazp360acrdev01 -n admin-service --orderby time_desc --top 1
+
+```sh
 
 
 
