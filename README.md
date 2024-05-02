@@ -4,7 +4,7 @@ Any image that is older than a month should be deleted and if the latest image i
 
 Below is the code snippet
 
-```js
+```sh
 # Set your Azure Container Registry name
 ACR_NAME="tvsmazp360acrdev01"
 # Get the list of repositories in the ACR
